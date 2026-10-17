@@ -1,0 +1,12 @@
+# NPCs are equipped zombies using vanilla entity damage and knockback physics.
+fighter:
+  max-health: 40.0
+  name: '&c&lWisp Fighter'
+  weapon: DIAMOND_SWORD
+  armor: DIAMOND
+netherite-dummy:
+  max-health: 1024.0
+  name: '&5&lNetherite Dummy'
+  invulnerable: false
+  auto-heal: true
+  auto-heal-delay-ticks: 30
