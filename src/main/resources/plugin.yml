@@ -1,0 +1,15 @@
+name: WispNPC
+version: 1.0.0
+main: com.razeplayz.wispnpc.WispNPCPlugin
+api-version: '1.21'
+author: Razeplayz
+description: Fighting NPCs and stationary knockback dummies.
+commands:
+  npc:
+    description: Manage WispNPC combat NPCs.
+    usage: /npc <spawn fighter|netherite|remove|reload>
+    permission: wispnpc.admin
+permissions:
+  wispnpc.admin:
+    description: Allows managing WispNPC entities.
+    default: op
