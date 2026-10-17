@@ -1,0 +1,15 @@
+name: WispNPCs
+version: 1.0.0
+main: dev.wispsmp.npcs.WispNPCs
+api-version: '1.21'
+softdepend: [Citizens]
+author: WispSMP
+commands:
+  wispnpcs:
+    description: Manage WispNPCs player-like NPCs and click actions.
+    aliases: [wnpc]
+    usage: /wnpc help
+permissions:
+  wispnpcs.admin:
+    description: Create and manage WispNPCs.
+    default: op
