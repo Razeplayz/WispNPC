@@ -1,0 +1,5 @@
+# WispNPCs settings. Player-like NPCs are provided by Citizens.
+messages:
+  prefix: '&8[&bWispNPCs&8] &r'
+settings:
+  require-citizens: true
