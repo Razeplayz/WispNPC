@@ -3,7 +3,7 @@ package dev.wispsmp.npcs;
 import net.citizensnpcs.api.CitizensAPI;
 import net.citizensnpcs.api.npc.NPC;
 import net.citizensnpcs.api.npc.NPCRegistry;
-import net.citizensnpcs.api.trait.trait.SkinTrait;
+import net.citizensnpcs.trait.SkinTrait;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
